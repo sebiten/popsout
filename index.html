@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="tailwindCompiled.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Project</title>
+</head>
+
+    <img class="bg-white absolute bg-cover w-full h-full" src="./src/img/bg-overlay.png" alt="">
+    <header class="py-3 text-white relative border-b-2 border-t-2">
+        <div class="container mx-auto items-center flex justify-between">
+            <div><img class="h-16" src="./src/img/logo.png" alt=""></div>
+    
+            <button id="toggle" class="md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+    
+            <nav id="nav" class=" fixed top-6 bottom-0 -right-full  w-52 md:w-auto md:static transition-all">
+                <ul class="opacity-100 md:flex gap-4 justify-center items-center mx-auto font-semibold">
+                    <li>
+                        <a class="block p-3" href="#">Our service</a>
+                    </li>
+                    <span class="-m-7 -mb-8 material-symbols-outlined">
+                        expand_more
+                        </span>
+                    <li>
+                        <a class="ml-10 block p-4" href="#">Shop</a>
+                    </li>
+                    <span class="-m-8 -mb-9 material-symbols-outlined">
+                        expand_more
+                        </span>
+                    <li>
+                        <a class="ml-10 block p-3 text-center" href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a class="block p-3" href="#">Profile</a>
+                    </li>
+                    <li>
+                        <a class="text-center block p-3 border-2 bg-yellow-500 text-black" href="#">Get Started</a>
+                    </li>
+                    <li>
+                        <a class="text-center block p-3 border-2" href="#">Get in touch</a>
+                    </li>
+                    <span class="p-3 border-2 material-symbols-outlined">shopping_cart</span>
+                </ul>
+            </nav>
+        </div>
+        <script type="text/javascript" src="navi.js"></script>
+    </header>
+    <body>
+            <div>
+                <h1 class="text-white text-sxl relative text-center mt-20 md:mt-48 xl:mt-60 uppercase w-auto font-bold">We lead bussiness into <br> immersive reality</h1>
+                <br class="mt-20"><span class="material-symbols-outlined">south</span>
+            </div>
+        <div class="container mx-auto my-96 md:my-96 xl:my-96">
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-1 lg:grid-cols-3">
+                <div class="brand1 mx-3">
+                    <img src="./src/img/brand1.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ea nemo? Ipsum, earum dolorum? Blanditiis reprehenderit natus minus fugiat, animi pariatur! Maiores iste distinctio, dolorem nihil cumque doloremque dolore eaque?</p>
+                </div>
+                <div class="brand2 mx-3">
+                    <img src="./src/img/brand2.png" alt="">
+                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam maxime quibusdam recusandae sequi doloremque officia voluptatibus asperiores eum nesciunt aperiam nobis est quasi esse, corporis delectus harum, perferendis natus saepe!</p>
+                </div>
+                <div class="brand3 mx-3">
+                    <img src="./src/img/brand3.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sunt harum necessitatibus, sed molestiae consequatur reprehenderit quae quas, veritatis quos reiciendis magnam maiores veniam, accusantium quisquam vero labore earum! Facere!</p>
+                </div>
+            </divc>
+        </div>
+
+
+
+            <!-- <div class="grid xl:grid-cols-3 mx-36 mt-20  gap-10 ">
+                <div class="brand1 place-items-center md:shrink-1  ">
+                    <img class=" mx-auto -my-2" src="./src/img/brand1.png" alt="">
+                    <p class="w-auto text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sit sequi ea, fugiat architecto tenetur mollitia distinctio libero..</p>
+                </div>
+                <div class="brand2  ">
+                    <img class="mx-auto my-1" src="./src/img/brand2.png" alt="">
+                    <p class="my-auto text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nostrum impedit aliquam adipisci quia ipsam voluptates illum!</p>
+                </div>
+                <div class="brand3 ">
+                    <img class="mx-auto" src="./src/img/brand3.png" alt="">
+                    <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur commodi sit quo, nulla possimus dicta, suscipit saepe.</p>
+                </div>
+            </div>
+    </section> -->
+
+
+
+    </body>
+
+</html>
+<!-- <img class="overflow-hidden absolute bg-cover w-full h-full" src="./src/img/bg-overlay.png" alt="">
+<div class="nav-bar text-white">
+    <nav class="md:shrink-0 font-semibold border-b-2 border-t-2 flex justify-center relative text-white space-x-14 p-5 text-lg uppercase align-center items-center">
+        <img class="h-14" src="./src/img/logo.png" alt="">
+        <a href="#">Our services</a>
+        <a href="#">shop</a>
+        <a href="#">Blog</a>
+        <a href="#">Profile</a>
+        <a class="bg-yellow-500 p-2 border-2 text-black border-white space-x-4" href="#">Get started</a>
+        <a class="p-2 border-2 border-white" href="#">Get in touch</a>
+        <a class="hidden md:display pt-2 px-2 border-2 border-white " href="#"><span class="material-symbols-outlined">shopping_cart</span></a>
+    </nav> -->
